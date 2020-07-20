@@ -19,113 +19,58 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecoleta</title>
+    <title>Resultado da Pesquisa</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/create-point.css">
+    <link rel="stylesheet" href="/styles/search-results.css">
     <link rel="stylesheet" href="/styles/responsive.css">
 
 </head>
 
 <body>
 
-    <div id="page-create-point">
+    <div id="page-search-results">
 
         <header>
             <img src="/assets/logo.svg" alt="Logomarca">
-            <a href="#">
+            <a href="index.html">
                 <span></span>Voltar para Home
             </a>
         </header>
 
-        <form action="">
-            <h1>Cadastro do ponto de coleta</h1>
+        <main>
+            
+            <h4>
+                <strong>2 pontos</strong> encontrados
+            </h4>
 
-            <fieldset>
-                <legend>
-                    <h2>Dados da Entidade</h2>
-                </legend>
+            <div class="cards">
 
-                <div class="field">
-                    <label for="name">Nome da Entidade</label>
-                    <input type="text" name="name" required>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1579061201641-1e98ff03f7b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=937&q=80" alt="Colectoria">
+                    <h1>Colectoria</h1>
+                    <h3>Residuos Eletroônicos, Lâmpadas</h3>
+                    <p>
+                        Rio do Sul, Santa CAtarina <br/>
+                        Guilherme Gemballa, Jardin América <br/>
+                        Nº 260
+                    </p>
                 </div>
 
-                <div class="field-group">
-                    <div class="field">
-                        <label for="address">Endereço</label>
-                        <input type="text" name="address">
-                    </div>
-                    <div class="field">
-                        <label for="addres2">Número/Complemento</label>
-                        <input type="text" name="address2" required>
-                    </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1528323273322-d81458248d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1101&q=80" alt="Papersider">
+                    <h1>Papersider</h1>
+                    <h3>Papeis e Papelão</h3>
+                    <p>
+                        Rio do Sul, Santa CAtarina <br/>
+                        Guilherme Gemballa, Jardin América <br/>
+                        Nº 260
+                    </p>
                 </div>
-
-                <div class="field-group">
-                    <div class="field">
-                        <label for="state">Estado</label>
-                        <select name="state" required>
-                            <option value="">Selecione o Estado</option>
-                        </select>
-                        <input type="hidden" name="state" required>
-                    </div>
-                    <div class="field">
-                        <label for="city">Cidade</label>
-                        <select name="city" disabled required>
-                            <option value="">Selecione a Cidade</option>
-                        </select>
-                        <!-- <input type="hidden" name="city"> -->
-                    </div>
-                </div>
-
-            </fieldset>
-
-            <fieldset>
-                <legend>
-                    <h2>Ítens de Coleta</h2>
-                </legend>
-
-                <div class="items-grid">
-                    <li data-id="1">
-                        <img src="/assets/lampadas.svg" alt="lâmpadas">
-                        <span>Lâmpadas</span>
-                    </li>
-
-                    <li data-id="2">
-                        <img src="/assets/baterias.svg" alt="Pilhas e Baterias">
-                        <span>Pilhas e Baterias</span>
-                    </li>
-
-                    <li data-id="3">
-                        <img src="/assets/papeis-papelao.svg" alt="Papéis e Papelão">
-                        <span>Papéis e Papelão</span>
-                    </li>
-
-                    <li data-id="4">
-                        <img src="/assets/eletronicos.svg" alt="Resíduos Eletrônicos">
-                        <span>Resíduos Eletrônicos</span>
-                    </li>
-
-                    <li data-id="5">
-                        <img src="/assets/organicos.svg" alt="Resíduos Orgânicos">
-                        <span>Resíduos Orgânicos</span>
-                    </li>
-
-                    <li data-id="6">
-                        <img src="/assets/oleo.svg" alt="Óleo de Cozinha">
-                        <span>Óleo de Cozinha</span>
-                    </li>
-                </div>
-
-                <input type="hidden" name="items">
-
-            </fieldset>
-
-            <button type="submit">Cadastrar Ponto de Coleta</button>
-        </form>
+            </div>
+        </main>
     </div>
 
     <script src="/scripts/create-point.js"></script>
