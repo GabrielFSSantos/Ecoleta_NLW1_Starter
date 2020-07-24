@@ -36,7 +36,6 @@ function getCities(event) {
 document.querySelector("select[name=state]").addEventListener("change", getCities);
 
 
-
 // Ítens de Coleta
 
 const itemsToCollect = document.querySelectorAll(".items-grid li")

@@ -1,13 +1,15 @@
 {
-  "name": "nextLevelWeekStarter",
+  "name": "nlwstarter",
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
+    "runDB": "node src/database/db.js",
     "dev": "nodemon src/server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "nunjucks": "^3.2.2"
+    "nunjucks": "^3.2.2",
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
