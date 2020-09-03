@@ -1,6 +1,6 @@
 # NextLevelWeek_Rocketseat_Starter
 ![Developer](https://img.shields.io/badge/GabrielFSSantos-NextLevelWeek__Rocketseat__Starter-blue)
-[![licence mit](https://img.shields.io/github/license/GabrielFSSantos/NextLevelWeek_Rocketseat_Starter)](https://github.com/GabrielFSSantos/TypeScript/blob/master/LICENSE)
+[![licence mit](https://img.shields.io/github/license/GabrielFSSantos/NextLevelWeek_Rocketseat_Starter)](https://github.com/GabrielFSSantos/NextLevelWeek_Rocketseat_Starter/blob/master/LICENSE)
 
 > ♻️ Ecoleta - é uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos as pessoas que precisam descartar seus resíduos de maneira ecológica.
 > 
@@ -40,7 +40,7 @@ O NLW é uma experiência online com muito conteúdo prático, desafios e hacks 
 * [Node.js] - Ferramenta utilizada para o desenvolvimento back-end.
 
 ## License
-[MIT License](https://github.com/GabrielFSSantos/TypeScript/blob/master/LICENSE)
+[MIT License](https://github.com/GabrielFSSantos/NextLevelWeek_Rocketseat_Starter/blob/master/LICENSE)
 
 [HTML]: <https://devdocs.io/html/>
 [CSS]: <https://devdocs.io/css/>
