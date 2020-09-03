@@ -37,13 +37,11 @@ O NLW é uma experiência online com muito conteúdo prático, desafios e hacks 
 
 * [HTML] - Linguagem utilizada para marcação de texto.
 * [CSS] - Utilizado para estilização.
-* [JavaScript] - Linguagem utilizada parao desenvolvimento back-end.
-* [Node.js] - Ferramenta utilizada parao desenvolvimento back-end.
+* [Node.js] - Ferramenta utilizada para o desenvolvimento back-end.
 
 ## License
 [MIT License](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/LICENSE.md) ©
 
 [HTML]: <https://devdocs.io/html/>
 [CSS]: <https://devdocs.io/css/>
-[JavaScript]: <https://devdocs.io/javascript/>
 [Node.js]: <https://nodejs.org/>
