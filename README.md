@@ -1,6 +1,6 @@
-# NextLevelWeek_Rocketseat_Starter
-![Developer](https://img.shields.io/badge/GabrielFSSantos-NextLevelWeek__Rocketseat__Starter-blue)
-[![licence mit](https://img.shields.io/github/license/GabrielFSSantos/NextLevelWeek_Rocketseat_Starter)](https://github.com/GabrielFSSantos/NextLevelWeek_Rocketseat_Starter/blob/master/LICENSE)
+# Ecoleta_NLW1_Starter
+![Developer](https://img.shields.io/badge/GabrielFSSantos-Ecoleta__NLW1__Starter-blue)
+[![licence mit](https://img.shields.io/github/license/GabrielFSSantos/Ecoleta_NLW1_Starter)](https://github.com/GabrielFSSantos/Ecoleta_NLW1_Starter/blob/master/LICENSE)
 
 > ♻️ Ecoleta - é uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos as pessoas que precisam descartar seus resíduos de maneira ecológica.
 > 
